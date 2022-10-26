@@ -1,0 +1,82 @@
+.msg-box{
+    /* background-color: rgb(165, 126, 42); */
+    padding: 0px 10px;
+    width: 100% ;
+    box-sizing: border-box;
+    display: flex;
+    /* justify-content: end; */
+    margin-bottom: 10px; 
+}
+.msg-box-mymsg{
+    padding: 0px 10px;
+    width: 100% ;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px; 
+}
+ .msg-box-content{
+    position: relative;
+    background-color: rgb(159, 248, 192);
+    border-radius: 10px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0px 10px;
+    max-width: 80%;
+    
+} 
+.msg-box-content-1{
+    position: relative;
+    background-color: rgb(219, 214, 205);
+    border-radius: 10px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0px 10px;
+    max-width: 80%;
+}
+.msg-box-content::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -12px;
+    /* left: -2px; */
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(140deg, rgb(159, 248, 192), rgb(159, 248, 192),transparent 50%,transparent);
+}
+.msg-box-content-1::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left:-12px;
+    /* left: -2px; */
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(590deg, rgb(219, 214, 205), rgb(219, 214, 205),transparent 50%,transparent);
+}
+
+
+
+.msg-box-content>p{
+    margin-right: 15px;
+    /* background-color: rgb(42, 165, 144); */
+}
+.msg-box-content-1>p{
+    margin-right: 15px;
+    /* background-color: rgb(42, 165, 144); */
+}
+.msg-box-content>span{
+    margin-bottom: 2px;
+}
+.msg-box-content-1>span{
+    margin-bottom: 2px;
+}
+#chatting-image{
+    height: 100px;
+    width: 100px;
+}
+

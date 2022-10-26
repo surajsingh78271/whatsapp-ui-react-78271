@@ -1,0 +1,15 @@
+.close-nav{
+    padding: 3px 8px;
+    background-color: whitesmoke;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+/* .close-nav-content{
+    background-color: aqua;
+} */
+.close-nav-content>span{
+    margin: 0px 15px;
+
+}

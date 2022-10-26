@@ -1,0 +1,71 @@
+.left-screen{
+    width: 30%;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    /* padding: 0px 2px; */
+    
+    
+}
+.left-heading{
+    /* background-color: aqua; */
+    padding: 3px 7px;
+}
+.left-heading>span{
+    font-weight: normal;
+    font-size:small;
+    /* background-color: blueviolet; */
+}
+.chat{
+    padding: 10px 15px;
+    /* background-color:chartreuse; */
+    /* border: 1px solid red; */
+    /* overflow-y:scroll */
+    
+    
+}
+.chat-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px ;
+}
+.chat-nav>.logo{
+    font-size: large;
+    font-weight: bolder;
+}
+.setting-logo{
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.setting-logo>span{
+    margin: 0px 10px;
+    font-size:large;
+    font-weight:normal;
+}
+.left-search{
+    margin: 5px 0px;
+    margin-bottom: 8px;
+    display: flex;
+    background-color: blueviolet;
+}
+.left-search>input{
+    padding: 0px 8px;
+    width: 100%;
+    height: 28px;
+}
+.chat-main-content{
+    height: 100%;
+    /* overflow-y:scroll; */
+    overflow-y:auto ;
+
+    /* overflow-block:inherit; */
+    
+    /* padding: 10px 15px; */
+    padding: 10px 0px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
